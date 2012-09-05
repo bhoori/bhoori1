@@ -1,20 +1,20 @@
-package com.bhoori.android.setup;
+package com.bhoori.android;
 
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
 
-public class SetupActivity extends Activity {
+public class StatusActivity extends Activity {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_setup);
+        setContentView(R.layout.activity_status);
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.activity_setup, menu);
+        getMenuInflater().inflate(R.menu.activity_status, menu);
         return true;
     }
 }
