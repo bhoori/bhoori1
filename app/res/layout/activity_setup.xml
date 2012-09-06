@@ -4,11 +4,32 @@
     android:layout_height="match_parent" >
 
     <TextView
+        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:text="@string/hello_world"
         tools:context=".SetupActivity" />
+
+    <Button
+        android:id="@+id/button_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next_button"
+        android:textSize="18px" >
+    </Button>
+
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_next"
+        android:layout_marginTop="66dp"
+        android:ems="10"
+        android:hint="@string/input_text_waiter_name" >
+
+        <requestFocus />
+    </EditText>
 
 </RelativeLayout>
