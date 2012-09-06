@@ -1,0 +1,20 @@
+<resources>
+
+    <string name="app_name">Bhoori</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+<<<<<<< HEAD
+    <string name="title_activity_setup">SetupActivity</string>
+    <string name="title_activity_feedback">Feedback</string>
+    <string name="button_next"></string>
+    <string name="next_button_setup">Next</string>
+    <string name="text_next_button">Next</string>
+    <string name="input_text_waiter_name">Waiter Name</string>
+    <string name="next_button">Next</string>
+    <string name="button_back">Back</string>
+    
+=======
+    <string name="title_activity_status">StatusActivity</string>
+>>>>>>> b696fdc184aaec1dc931f779eacd811d41e3b064
+
+</resources>

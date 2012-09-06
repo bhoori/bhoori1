@@ -1,4 +1,4 @@
-package com.bhoori.android.setup;
+package com.bhoori.android;
 
 import android.os.Bundle;
 import android.app.ActionBar.LayoutParams;
@@ -11,7 +11,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-public class SetupActivity extends Activity {
+public class StatusActivity extends Activity {
 
 	    // Initializing variables
 	    EditText inputName;
@@ -19,6 +19,7 @@ public class SetupActivity extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+<<<<<<< HEAD:app/src/com/bhoori/android/setup/SetupActivity.java
         /* Just for now add from the xml file */ 
         setContentView(R.layout.activity_setup);
         
@@ -40,12 +41,19 @@ public class SetupActivity extends Activity {
         });
         
         
+=======
+        setContentView(R.layout.activity_status);
+>>>>>>> b696fdc184aaec1dc931f779eacd811d41e3b064:app/src/com/bhoori/android/StatusActivity.java
     }
     /*mbhoori: adding extra comments to just check */
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
+<<<<<<< HEAD:app/src/com/bhoori/android/setup/SetupActivity.java
     	 
         getMenuInflater().inflate(R.menu.activity_setup, menu);
+=======
+        getMenuInflater().inflate(R.menu.activity_status, menu);
+>>>>>>> b696fdc184aaec1dc931f779eacd811d41e3b064:app/src/com/bhoori/android/StatusActivity.java
         return true;
         
         
